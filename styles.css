@@ -1,0 +1,115 @@
+.rodape{
+    margin-top: 80px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+/* Estilos gerais */
+body { 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(9, 10, 10);
+}
+
+/* Cabeçalho */
+header {
+    color: #c00202;
+    text-align: center;
+    padding: 5px;
+}
+
+header h1 {
+    font-size: 35px;
+    margin: 5px;
+    font-family:SuperDream;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+}
+
+nav ul {
+    margin-bottom: 80px ;
+    margin-top: 20px;
+    margin-right: 100px;
+    margin-left: 100px;
+    text-transform: uppercase;
+    padding: 0;
+    justify-content: space-between;
+    display: flex;
+    
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #c00202;
+    text-decoration: none;
+}
+
+/* Seções específicas */
+.intro img,
+.discografia img,
+.noticias img {
+    max-width: 100%;
+    height: auto;
+}
+
+.intro p,
+.discografia p,
+.shows p,
+.noticias p,
+.contato p {
+    margin: 10px 0;
+}
+
+.album,
+.show,
+.noticia {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* Formulário de contato */
+form label,
+form textarea,
+form input[type="text"],
+form input[type="email"],
+form button {
+    display: block;
+    margin: 10px 0;
+}
+
+form button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+@font-face {
+    font-family:SuperDream;
+    src: url(Fontes/SuperDream.ttf);
+}
+@font-face {
+    font-family:Franchise;
+    src: url(Fontes/Franchise.ttf);
+}
+@font-face {
+    font-family:GlossySheenShine;
+    src: url(Fontes/GlossySheenShineDEMO.ttf);
+}
+@font-face {
+    font-family:Jackpot;
+    src: url(Fontes\Jackpot.ttf);
+}
+@font-face {
+    font-family:TopSecret;
+    src: url(Fontes\Top-Secret.ttf);
+}
