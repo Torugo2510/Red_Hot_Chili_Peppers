@@ -93,6 +93,11 @@ form button {
     cursor: pointer;
 }
 
+.contato{
+    margin-left: 39%;
+    color: #ccc;
+}
+
 @font-face {
     font-family:SuperDream;
     src: url(Fontes/SuperDream.ttf);
